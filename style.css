@@ -1,0 +1,43 @@
+.row div {
+    border: 1px solid #fff;
+    padding: 4%;
+}
+
+.grey {
+    background-color: dimgrey;
+}
+
+.white {
+    background-color: white;
+}
+.orange{
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+@media screen and (max-width: 941px) {
+
+    .lt_bgblack,
+    .lt_bgwhite,
+    .lt_bgyellow,
+    .lt_bgorange {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .lt_bgblack,
+    .lt_bgwhite,
+    .lt_bgyellow,
+    .lt_bgorange {
+        height: 40px;
+    }
+}
